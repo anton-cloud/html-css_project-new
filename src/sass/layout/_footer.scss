@@ -88,7 +88,8 @@
   fill: var(--primary-title-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover {
+  &:hover,
+  &:focus {
     fill: var(--secondary-title-color);
   }
 }
@@ -133,4 +134,11 @@
   @media screen and (min-width: 1200px) {
     padding: 10px 0;
   }
+}
+
+// Animation
+
+.animate__animated.animate__pulse {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
