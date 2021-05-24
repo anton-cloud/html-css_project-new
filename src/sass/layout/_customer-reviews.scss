@@ -1,0 +1,130 @@
+.customer-reviews__section {
+  padding-top: 80px;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 120px;
+  }
+}
+
+.container-wrap__img {
+  margin-right: auto;
+  margin-left: auto;
+  // margin-bottom: 28px;
+}
+
+//   @media screen and (min-width: 768px) {
+//     margin-bottom: 28px;
+//   }
+// }
+// .container-wrap {
+//   width: 926px;
+//   margin-bottom: 132px;
+// }
+.container-wrap__thumb-reviews {
+  position: relative;
+  background-color: #fafafa;
+  align-items: center;
+  padding: 46px 60px 28px;
+  margin: 30px 0;
+  z-index: 0;
+
+  @media screen and (min-width: $tablet) {
+    margin: 15px 60px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 46px 88px 28px;
+  }
+}
+.container-wrap__text-reviews {
+  position: relative;
+  font-size: 12px;
+  line-height: 2.55;
+  // padding: 45px 60px 26px 60px;
+  background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 31px);
+  text-align: center;
+  color: #000;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 14px;
+    line-height: 2.16;
+    background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 30px);
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 16px;
+    line-height: 1.86;
+    background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 31px);
+  }
+
+  &::before {
+    position: absolute;
+    content: '';
+    top: -18px;
+    left: 1%;
+    transform: translateX(-2%);
+    width: 54px;
+    height: 40px;
+    background-image: url(../images/reviews/detail.png);
+    z-index: -1;
+
+    @media screen and (min-width: $tablet) {
+      top: -19px;
+      left: -7%;
+    }
+
+    @media screen and (min-width: $desktop) {
+      top: -19px;
+      left: -3%;
+    }
+  }
+}
+
+.container-wrap__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+  color: #000;
+
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 20px;
+  }
+
+  &::before {
+    margin: 0 auto 18px;
+    content: '';
+    top: 0;
+    left: 0;
+    display: block;
+    width: 32px;
+    height: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/reviews/circle-review.png);
+  }
+}
+
+// slider
+
+.slick-dots {
+  position: relative;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  content: '';
+  background-image: url(../images/customer_reviews-home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}

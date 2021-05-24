@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fonts-dm_sans);
+  color: var(--text-grey-color);
+  font-size: 12px;
+  font-weight: 500;
+  //   line-height: 1.36;
+  letter-spacing: 0.04em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
