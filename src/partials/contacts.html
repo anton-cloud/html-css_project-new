@@ -89,7 +89,7 @@
           </button>
         </li>
         <li class="contacts__button-item">
-          <button class="contacts__button-franchise" type="button">
+          <button class="contacts__button-franchise" type="button" data-modal-open>
             Franchise
             <svg class="contacts__locations-icon-dark" width="10" height="10">
               <use href="./images/sprite.svg#icon-arrow-contacts-new"></use>
@@ -97,6 +97,45 @@
           </button>
         </li>
       </ul>
+    </div>
+    <div class="backdrop__contacts is-hidden" data-modal>
+      <div class="modal__contacts">
+        <button class="contacts__button-modal-close" type="button" data-modal-close>close</button>
+        <p class="modal__contacts-title">BENEFITS OF OUR FRANCHISE</p>
+        <ul class="modal__contacts-benefits-list list">
+          <li class="modal__contacts-benefits-item">Special product</li>
+          <li class="modal__contacts-benefits-item">
+            Supply of unique products exclusively for the Ice-Cream
+          </li>
+          <li class="modal__contacts-benefits-item">Quick food preparation</li>
+          <li class="modal__contacts-benefits-item">
+            Affordable prices: Turnover - Profit - Sustainability
+          </li>
+          <li class="modal__contacts-benefits-item">Successful business model in 41 cities</li>
+          <li class="modal__contacts-benefits-item">
+            Broad customer base (age, social status, income)
+          </li>
+        </ul>
+        <p class="modal__contacts-title-secondary">Terms of the franchise</p>
+        <ul class="modal__contacts-terms-list list">
+          <li class="modal__contacts-terms-item">LUMP SUM 10 000$</li>
+          <li class="modal__contacts-terms-item">
+            PAYBACK PERIOD OF INVESTMENTS from 12 to 24 months
+          </li>
+          <li class="modal__contacts-terms-item">
+            ROYALTY 6% of total revenue (gross sales) per month
+          </li>
+        </ul>
+        <p class="modal__contacts-title-secondary">Interested in the franchise??</p>
+        <div class="modal__contacts-communication">
+          <a class="modal__contacts-communication-tel link" href="tel:+61(0)383766284">
+            +61(0) 383 766 284
+          </a>
+          <a class="modal__contacts-communication-email link" href="mailto:noreply@envato.com">
+            noreply@envato.com</a
+          >
+        </div>
+      </div>
     </div>
   </div>
 </section>
