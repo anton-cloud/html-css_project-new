@@ -25,21 +25,23 @@
 }
 
 .nav {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
+  z-index: 2;
   background-color: #e17992;
-  min-height: 502px;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   padding: 23px 0px;
   transform: translateY(-100%);
   transition: all 250ms linear;
+
   &.is-open {
     transform: translateY(0);
   }
   @media screen and (min-width: 768px) {
     width: 260px;
-    min-height: 400px;
+    height: 100vh;
     right: 0;
     left: auto;
   }
@@ -241,6 +243,8 @@
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: center;
+    width: 100%;
+    justify-content: space-between;
   }
 }
 
@@ -292,12 +296,11 @@
   @media screen and (min-width: 768px) {
     height: 100%;
     display: block;
-    margin-left: 475px;
   }
 
-  @media screen and (min-width: 1200px) {
-    margin-left: 675px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   margin-left: 675px;
+  // }
 
   .hero__numbers-item {
     width: 60px;

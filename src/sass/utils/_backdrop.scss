@@ -10,6 +10,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.2);
-  transition: fill 250ms var(--cubic);
+  background-color: rgba(213, 111, 137, 0.5);
+  transition: fill 250ms linear;
+  z-index: 100;
 }
