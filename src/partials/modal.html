@@ -1,0 +1,55 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal__btn-close" type="button" data-modal-close>
+      <svg class="modal__btn-svg">
+        <use href="./images/sprite.svg#icon-close"></use>
+      </svg></button>
+    <form class="modal__form" action="#">
+      <p class="modal__head">
+        We'll call back any time.
+      </p>
+      <label class="modal__item">
+        <span class="modal__item-box">
+          <input type="text" class="modal__input" name="user-name" placeholder="Name">
+        </span>
+      </label>
+
+      <label class="modal__item">
+        <span class="modal__item-box">
+          <input type="tel" class="modal__input" name="user-phone" placeholder="Phone">
+        </span>
+      </label>
+ 
+      <label class="modal__item">
+        <textarea name="user-message" class="modal__message" placeholder="Location"></textarea>
+        
+      </label>
+
+
+      <label class="ice-cream-label" for="ice-cream">Choose your ice cream from the list:</label>
+      <div class="modal-submit">
+        <input class="modal-submit-list" list="ice-creams" name="ice-cream" id="ice-cream" placeholder="Kinds ice-cream">
+        <datalist class="datalist" id="ice-creams">
+          <option value="Classic">
+          <option value="Vanilla">
+          <option value="Strawberry">
+          <option value="Chocolate">
+          <option value="Cookies and cream">
+        </datalist>
+        <button type="submit" class="button button-accent modal-submit-btn">send
+          <svg class="modal-submit__icon">
+            <use href="./images/sprite.svg#icon-truck"></use>
+          </svg>
+        </button>
+      </div>
+      
+      
+      <!-- <input class="button button-accent modal-submit-btn" type="submit"> -->
+
+      
+
+
+    </form>
+  </div>
+
+</div>
