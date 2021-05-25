@@ -81,7 +81,7 @@
     <div class="contacts__button">
       <ul class="contacts__button-list list">
         <li class="contacts__button-item">
-          <button class="contacts__button-locations" type="button">
+          <button class="contacts__button-locations" type="button" data-modal-open-locations>
             Our Locations
             <svg class="contacts__locations-icon-light" width="10" height="10">
               <use href="./images/sprite.svg#icon-arrow-contacts-new"></use>
@@ -97,6 +97,27 @@
           </button>
         </li>
       </ul>
+    </div>
+    <div class="backdrop__contacts-locations is-hidden" data-modal-locations>
+      <div class="modal__contacts-locations">
+        <button
+          class="contacts__button-modal-close-locations"
+          type="button"
+          data-modal-close-locations
+        >
+          <svg class="contacts__button-modal-icon-locations">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.866156508307!2d30.531895015153633!3d50.42496529708282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d96f5139689b%3A0xa1f7c65300bebad1!2sGoIT!5e0!3m2!1sru!2sua!4v1621951655461!5m2!1sru!2sua"
+          width="400"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
     </div>
     <div class="backdrop__contacts is-hidden" data-modal-franchise>
       <div class="modal__contacts">
