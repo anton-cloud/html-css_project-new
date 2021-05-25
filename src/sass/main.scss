@@ -6,11 +6,12 @@
 // Стили для файла с примером HTML-фрагмента
 
 @import './utils/variables';
-@import'./utils/breakpoints';
+@import './utils/breakpoints';
 @import './utils/visually-hidden';
+@import './utils/backdrop';
+@import './utils/modal';
 @import './base/container';
 @import './base/common';
-
 
 @import './layout/hero-header';
 @import './layout/products';
