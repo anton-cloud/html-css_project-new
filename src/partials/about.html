@@ -38,8 +38,8 @@
             </div>
         </div>
     </div>
-</section>
-<div class="backdrop is-hidden" data-modal-about>
+</section">
+<div class="backdrop-about is-hidden" data-modal-about>
     <div class="modal-about">
         <button type="button" class="modal-about__close-btn" data-modal-close-about>
             <svg class="close-icon" width="20px" height="20px">
@@ -48,29 +48,51 @@
         </button>
         <h2 class="modal-about__title">how it’s made?</h2>
         <p class="modal-about__description">
-            Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas
-            eros.
-            Maecenas eleifend erat at justo fringilla.
-        </p>
-        <p class="modal-about__description">
             Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet
             placerat.
             Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.       
             Aliquam erat volutpat. Aenean accumsan.
         </p>
-        <div>
-            <picture>
-                <source srcset="./images/about-desktop.webp 1x, ./images/about-desktop@2x.webp 2x" media="(min-width:1200px)"
-                    type="image/webp">
-                <source srcset="./images/about-desktop.png 1x, ./images/about-desktop@2x.png 2x" media="(min-width:1200px)">
-                <source srcset="./images/about-tablet.webp 1x, ./images/about-tablet@2x.webp 2x" media="(min-width:768px)"
-                    type="image/webp">
-                <source srcset="./images/about-tablet.png 1x, ./images/about-tablet@2x.png 2x" media="(min-width:768px)">
-                <source srcset="./images/about-mobile.webp 1x, ./images/about-mobile@2x.webp 2x" media="(min-width:320px)"
-                    type="image/webp">
-                <source srcset="./images/about-mobile.png 1x, ./images/about-mobile@2x.png 2x" media="(min-width:320px)">
-                <img src="./images/about-mobile.png" alt="Cow and milk">
-            </picture>
+        <div class="modal-about__image">
+            <a href="" class="modal-about__link">
+               <div class="modal-about__thumb">
+                    <picture>
+                        <source srcset="./images/about-desktop.webp 1x, ./images/about-desktop@2x.webp 2x" media="(min-width:1200px)"
+                            type="image/webp">
+                        <source srcset="./images/about-desktop.png 1x, ./images/about-desktop@2x.png 2x" media="(min-width:1200px)">
+                        <source srcset="./images/about-tablet.webp 1x, ./images/about-tablet@2x.webp 2x" media="(min-width:768px)"
+                            type="image/webp">
+                        <source srcset="./images/about-tablet.png 1x, ./images/about-tablet@2x.png 2x" media="(min-width:768px)">
+                        <source srcset="./images/about-mobile.webp 1x, ./images/about-mobile@2x.webp 2x" media="(min-width:320px)"
+                            type="image/webp">
+                        <source srcset="./images/about-mobile.png 1x, ./images/about-mobile@2x.png 2x" media="(min-width:320px)">
+                        <img src="./images/about-mobile.png" alt="Cow and milk">
+                    </picture>
+                    <ul class="modal-about__social-list">
+                        <li class="modal-about__social-item">
+                            <a class="modal-about__social-link" href="https://github.com/" target="_blank">
+                                <svg class="modal-about__social-icon" width="34" height="34">
+                                    <use href="./images/sprite.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="modal-about__social-item">
+                            <a class="modal-about__social-link" href="https://web.telegram.org" target="_blank">
+                                <svg class="modal-about__social-icon" width="34" height="34">
+                                    <use href="./images/sprite.svg#icon-telegram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="modal-about__social-item">
+                            <a class="modal-about__social-link" href="https://www.facebook.com/" target="_blank">
+                                <svg class="modal-about__social-icon" width="34" height="34">
+                                    <use href="./images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+               </div>
+            </a>
         </div>
     </div>
 </div>
