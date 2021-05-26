@@ -235,6 +235,7 @@
   padding: 40px;
   transform: translate(-50%, -50%) scale(1);
   width: 95vw;
+  height: 95wh;
   max-width: 450px;
   overflow-y: scroll;
   background-color: rgb(243, 220, 226);
@@ -266,6 +267,7 @@
   font-family: var(--fonts-dm_sans);
   font-size: 16px;
   margin-top: 20px;
+  margin-bottom: 20px;
   line-height: 1.62;
   text-align: left;
 }
